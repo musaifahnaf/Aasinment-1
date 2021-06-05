@@ -53,6 +53,39 @@ font-size: 30px;
     font-size: 10px;
     text-align: center;
 }
+.portfolio{
+    height:550px;
+    width: auto;
+    position: relative;
+    padding: 50px 50px 50px 50px;
+}
+.portfolio h1{
+    position: absolute;
+}
+#recearch{
+    position: absolute;
+    padding-top: 75px;
+}
+.portfolio p{
+    position: absolute;
+    padding-top: 155px;
+}
+.portfolio-img{
+    display: flex;
+float: right;
+
+}
+.container-grid-img{
+display: grid;
+grid-template-columns: auto auto;
+grid-column-gap: 20px ;
+}
+.grid-item-img{
+height: 170px;
+}
+#porto{
+    padding: top 25px; 
+    margin-bottom: -218px;
 }
 .address{
     height: 350px;
